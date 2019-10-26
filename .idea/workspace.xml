@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="726cc33b-0e73-447d-b5cd-447f98a68cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/catcasts_web/templates/layout/_navigation.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/catcasts_web/templates/layout/navigation_test.exs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/static/images/phoenix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/catcasts_web/controllers/page_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/catcasts_web/controllers/page_controller.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/catcasts_web/templates/layout/app.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/catcasts_web/templates/layout/app.html.eex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/catcasts_web/templates/page/index.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/catcasts_web/templates/page/index.html.eex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/catcasts_web/controllers/page_controller_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/test/catcasts_web/controllers/page_controller_test.exs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/_build/dev/lib/connection/" />
     <ignored path="$PROJECT_DIR$/_build/dev/lib/cowboy/" />
@@ -48,19 +50,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/dev.exs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="96">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -78,7 +71,64 @@
         <entry file="file://$PROJECT_DIR$/lib/catcasts_web/templates/page/index.html.eex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="16">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <caret line="1" column="82" selection-start-line="1" selection-start-column="82" selection-end-line="1" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/catcasts_web/controllers/page_controller_test.exs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/catcasts_web/templates/layout/navigation_test.exs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/catcasts_web/templates/layout/app.html.eex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/catcasts_web/templates/layout/_navigation.html.eex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/catcasts_web/controllers/page_controller.ex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -87,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/assets/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="463">
-              <caret line="32" column="62" lean-forward="true" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+              <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -97,6 +147,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>css-loa</find>
+      <find>Sign in with</find>
+      <find>Welcome</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,8 +158,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/webpack.config.js" />
-        <option value="$PROJECT_DIR$/assets/css/app.css" />
         <option value="$PROJECT_DIR$/assets/postcss.config.js" />
+        <option value="$PROJECT_DIR$/test/catcasts_web/templates/layout/navigation_test.exs" />
+        <option value="$PROJECT_DIR$/lib/catcasts_web/templates/layout/_navigation.html.eex" />
+        <option value="$PROJECT_DIR$/lib/catcasts_web/templates/layout/app.html.eex" />
+        <option value="$PROJECT_DIR$/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/lib/catcasts_web/controllers/page_controller.ex" />
+        <option value="$PROJECT_DIR$/test/catcasts_web/controllers/page_controller_test.exs" />
         <option value="$PROJECT_DIR$/lib/catcasts_web/templates/page/index.html.eex" />
       </list>
     </option>
@@ -123,7 +181,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="catcasts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catcasts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="catcasts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catcasts" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="catcasts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catcasts" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="catcasts_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -132,7 +211,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="language.elixir.sdks.erlang" />
+    <property name="settings.editor.selected.configurable" value="language.elixir.sdks.elixir" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -156,12 +235,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572126730751</updated>
-      <workItem from="1572126732645" duration="703000" />
+      <workItem from="1572126732645" duration="1893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="703000" />
+    <option name="totallyTimeSpent" value="1893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -203,14 +282,7 @@
     <entry file="file://$PROJECT_DIR$/assets/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
-          <caret line="32" column="62" lean-forward="true" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -221,10 +293,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/catcasts_web/templates/layout/navigation_test.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/catcasts_web/templates/layout/app.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/catcasts_web/templates/layout/_navigation.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/catcasts_web/controllers/page_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/catcasts_web/controllers/page_controller_test.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/catcasts_web/templates/page/index.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <caret line="1" column="82" selection-start-line="1" selection-start-column="82" selection-end-line="1" selection-end-column="82" />
         </state>
       </provider>
     </entry>
