@@ -1,6 +1,6 @@
 defmodule CatcastsWeb.SessionControllerTest do
   use CatcastsWeb.ConnCase
-  alias Catcasts.{Repo, User}  ## Add this line
+  alias Catcasts.{Repo, User}
 
   test "redirects to Google for authentication", %{conn: conn} do
     conn = get conn, "/auth/google?scope=email%20profile"
@@ -21,5 +21,17 @@ defmodule CatcastsWeb.SessionControllerTest do
       users = User |> Repo.all
       assert Enum.count(users) == 1
       assert get_flash(conn, :info) == "Thank you for signing in!"
+  end
+
+  test "signs out user", %{conn: conn} do
+      user = user_fixture()
+
+      conn =
+        conn
+        |> assign(:user, user)
+        |> get("/auth/signout")
+        |> get("/")
+
+      assert conn.assigns.user == nil
   end
 end

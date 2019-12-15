@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="ELIXIR_MODULE" version="4">
+<module type="RUBY_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Elixir" name="Elixir">
+      <configuration sdkName="Elixir 1.9.1" />
+    </facet>
+  </component>
   <component name="ModuleRunConfigurationManager">
     <shared />
   </component>
@@ -81,6 +86,7 @@
       <excludeFolder url="file://$MODULE_DIR$/doc" />
       <excludeFolder url="file://$MODULE_DIR$/logs" />
     </content>
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="phoenix" level="project" />
     <orderEntry type="library" name="phoenix_pubsub" level="project" />
@@ -92,6 +98,9 @@
     <orderEntry type="library" name="gettext" level="project" />
     <orderEntry type="library" name="jason" level="project" />
     <orderEntry type="library" name="plug_cowboy" level="project" />
+    <orderEntry type="library" name="ueberauth" level="project" />
+    <orderEntry type="library" name="ueberauth_google" level="project" />
+    <orderEntry type="library" name="poison" level="project" />
     <orderEntry type="library" name="plug" level="project" />
     <orderEntry type="library" name="telemetry" level="project" />
     <orderEntry type="library" name="ex_doc" level="project" />
@@ -110,7 +119,17 @@
     <orderEntry type="library" name="hackney" level="project" />
     <orderEntry type="library" name="kadabra" level="project" />
     <orderEntry type="library" name="x509" level="project" />
+    <orderEntry type="library" name="dialyxir" level="project" />
+    <orderEntry type="library" name="credo" level="project" />
+    <orderEntry type="library" name="excoveralls" level="project" />
+    <orderEntry type="library" name="oauth2" level="project" />
+    <orderEntry type="library" name="benchfella" level="project" />
+    <orderEntry type="library" name="jiffy" level="project" />
+    <orderEntry type="library" name="exjsx" level="project" />
+    <orderEntry type="library" name="json" level="project" />
+    <orderEntry type="library" name="jazz" level="project" />
     <orderEntry type="library" name="mime" level="project" />
     <orderEntry type="library" name="plug_crypto" level="project" />
+    <orderEntry type="library" name="bypass" level="project" />
   </component>
 </module>
