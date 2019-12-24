@@ -2,28 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="726cc33b-0e73-447d-b5cd-447f98a68cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/catcasts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/benchfella.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/bypass.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/credo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/dialyxir.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/excoveralls.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/exjsx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jazz.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jiffy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/catcasts_web/plugs/set_user.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/support/test_helpers.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/catcasts/multimedia.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/catcasts/multimedia/video.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/catcasts_web/controllers/video_controller.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/catcasts_web/templates/video/form.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/catcasts_web/templates/video/index.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/catcasts_web/templates/video/new.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/catcasts_web/templates/video/show.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/catcasts_web/views/video_view.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priv/repo/migrations/20191215233531_create_videos.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectFilesBackup/catcasts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/catcasts/multimedia_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/catcasts_web/controllers/video_controller_test.exs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catcasts.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/catcasts_web/controllers/session_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/catcasts_web/controllers/session_controller.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/catcasts_web/router.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/catcasts_web/router.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/catcasts_web/templates/layout/_navigation.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/catcasts_web/templates/layout/_navigation.html.eex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/catcasts_web/controllers/session_controller_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/test/catcasts_web/controllers/session_controller_test.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/catcasts_web/templates/layout/navigation_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/test/catcasts_web/templates/layout/navigation_test.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/support/conn_case.ex" beforeDir="false" afterPath="$PROJECT_DIR$/test/support/conn_case.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/support/data_case.ex" beforeDir="false" afterPath="$PROJECT_DIR$/test/support/data_case.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/support/test_helpers.ex" beforeDir="false" afterPath="$PROJECT_DIR$/test/support/test_helpers.ex" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/_build/dev/lib/connection/" />
     <ignored path="$PROJECT_DIR$/_build/dev/lib/cowboy/" />
@@ -59,22 +52,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="catcasts" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/catcasts_web/controllers/session_controller_test.exs">
+        <entry file="file://$PROJECT_DIR$/lib/catcasts/multimedia/video.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/catcasts_web/controllers/session_controller.ex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+            <state relative-caret-position="160">
+              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -82,53 +69,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/support/test_helpers.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="102">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/support/data_case.ex">
+        <entry file="file://$PROJECT_DIR$/lib/catcasts/multimedia.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="449">
+              <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/support/conn_case.ex">
+        <entry file="file://$PROJECT_DIR$/priv/repo/migrations/20191215233531_create_videos.exs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/catcasts_web/templates/layout/navigation_test.exs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/catcasts_web/plugs/set_user.ex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -136,17 +96,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/catcasts_web/router.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="46" />
+            <state relative-caret-position="304">
+              <caret line="19" column="66" lean-forward="true" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/catcasts_web/templates/layout/_navigation.html.eex">
+        <entry file="file://$PROJECT_DIR$/lib/catcasts_web/templates/video/index.html.eex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="23" column="56" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="56" />
+            <state relative-caret-position="265">
+              <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/catcasts_web/templates/video/show.html.eex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/catcasts/multimedia_test.exs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/catcasts_web/controllers/video_controller_test.exs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/catcasts_web/controllers/video_controller.ex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -167,6 +163,17 @@
       <find>session_path</find>
       <find>user_fi</find>
       <find>TestHel</find>
+      <find>client_id</find>
+      <find>GOOGLE_CLIENT_ID</find>
+      <find>GOOGLE_CLIENT_SECRET</find>
+      <find>edit</find>
+      <find>delete</find>
+      <find>list_video</find>
+      <find>get_Video</find>
+      <find>create_video</find>
+      <find>video_fi</find>
+      <find>fixture(</find>
+      <find>list_vide</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -188,24 +195,31 @@
         <option value="$PROJECT_DIR$/lib/catcasts_web/templates/page/index.html.eex" />
         <option value="$PROJECT_DIR$/mix.exs" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/config/config.exs" />
-        <option value="$PROJECT_DIR$/test/support/test_helpers.ex" />
         <option value="$PROJECT_DIR$/lib/catcasts_web/plugs/set_user.ex" />
         <option value="$PROJECT_DIR$/lib/catcasts_web/templates/layout/_navigation.html.eex" />
         <option value="$PROJECT_DIR$/test/support/data_case.ex" />
         <option value="$PROJECT_DIR$/test/catcasts_web/controllers/session_controller_test.exs" />
         <option value="$PROJECT_DIR$/test/catcasts_web/templates/layout/navigation_test.exs" />
         <option value="$PROJECT_DIR$/test/support/conn_case.ex" />
-        <option value="$PROJECT_DIR$/lib/catcasts_web/router.ex" />
         <option value="$PROJECT_DIR$/lib/catcasts_web/controllers/session_controller.ex" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config/config.exs" />
+        <option value="$PROJECT_DIR$/priv/repo/migrations/20191215233531_create_videos.exs" />
+        <option value="$PROJECT_DIR$/lib/catcasts/multimedia/video.ex" />
+        <option value="$PROJECT_DIR$/lib/catcasts_web/router.ex" />
+        <option value="$PROJECT_DIR$/lib/catcasts_web/templates/video/index.html.eex" />
+        <option value="$PROJECT_DIR$/lib/catcasts_web/templates/video/show.html.eex" />
+        <option value="$PROJECT_DIR$/test/catcasts/multimedia_test.exs" />
+        <option value="$PROJECT_DIR$/lib/catcasts/multimedia.ex" />
+        <option value="$PROJECT_DIR$/lib/catcasts_web/controllers/video_controller.ex" />
+        <option value="$PROJECT_DIR$/test/support/test_helpers.ex" />
+        <option value="$PROJECT_DIR$/test/catcasts_web/controllers/video_controller_test.exs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1080" />
-    <option name="height" value="877" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -300,19 +314,28 @@
       <option name="presentableId" value="Default" />
       <updated>1572126730751</updated>
       <workItem from="1572126732645" duration="7218000" />
-      <workItem from="1576429019717" duration="2029000" />
+      <workItem from="1576429019717" duration="9540000" />
     </task>
+    <task id="LOCAL-00001" summary="part 5">
+      <created>1576452285078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576452285078</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9247000" />
+    <option name="totallyTimeSpent" value="16758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4908425" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50915754" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -323,7 +346,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32841328" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3296433" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44526446" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -334,6 +357,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="part 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/dev.exs">
@@ -413,27 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.exs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/catcasts_web/templates/layout/_navigation.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -448,13 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/support/test_helpers.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/catcasts_web/plugs/set_user.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -465,7 +464,7 @@
     <entry file="file://$PROJECT_DIR$/test/catcasts_web/templates/layout/navigation_test.exs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -483,17 +482,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/catcasts_web/router.ex">
+    <entry file="file://$PROJECT_DIR$/lib/catcasts_web/controllers/session_controller.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="507">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/catcasts_web/controllers/session_controller.ex">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        <state relative-caret-position="367">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="32" column="24" selection-start-line="31" selection-start-column="3" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/catcasts_web/templates/video/index.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/catcasts_web/templates/video/show.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/priv/repo/migrations/20191215233531_create_videos.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/catcasts/multimedia/video.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/catcasts_web/router.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="66" lean-forward="true" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/support/test_helpers.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/catcasts_web/controllers/video_controller_test.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/catcasts/multimedia.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/catcasts_web/controllers/video_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/catcasts/multimedia_test.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
