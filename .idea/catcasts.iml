@@ -24,6 +24,7 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/file_system" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/gettext" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/hackney" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/httpoison" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/idna" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/jason" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/metrics" />
@@ -57,6 +58,7 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/ecto_sql" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/gettext" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/hackney" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/httpoison" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/idna" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/jason" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/metrics" />
@@ -131,5 +133,8 @@
     <orderEntry type="library" name="mime" level="project" />
     <orderEntry type="library" name="plug_crypto" level="project" />
     <orderEntry type="library" name="bypass" level="project" />
+    <orderEntry type="library" name="httpoison" level="project" />
+    <orderEntry type="library" name="mimic" level="project" />
+    <orderEntry type="library" name="httparrot" level="project" />
   </component>
 </module>

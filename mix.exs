@@ -45,7 +45,8 @@ defmodule Catcasts.MixProject do
       {:plug_cowboy, "~> 2.0"},
       {:ueberauth, "~> 0.5"},
       {:ueberauth_google, "~> 0.7"},
-      {:poison, "~> 3.1"}
+      {:poison, "~> 3.1"},
+      {:httpoison, "~> 1.4"}
     ]
   end
 

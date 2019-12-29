@@ -1,9 +1,8 @@
 defmodule CatcastsWeb.VideoControllerTest do
   use CatcastsWeb.ConnCase
 
-  @create_attrs %{duration: "some duration", thumbnail: "some thumbnail", title: "some title", video_id: "some video_id", view_count: 42}
-  @update_attrs %{duration: "some updated duration", thumbnail: "some updated thumbnail", title: "some updated title", video_id: "some updated video_id", view_count: 43}
-  @invalid_attrs %{duration: nil, thumbnail: nil, title: nil, video_id: nil, view_count: nil}
+  @create_attrs %{video_id: "https://www.youtube.com/watch?v=wZZ7oFKsKzY"}
+  @invalid_attrs %{video_id: ""}
 
   describe "index" do
     test "lists all videos", %{conn: conn} do
@@ -15,24 +14,35 @@ defmodule CatcastsWeb.VideoControllerTest do
   describe "new video" do
     test "renders form", %{conn: conn} do
       conn = get(conn, Routes.video_path(conn, :new))
-      assert html_response(conn, 200) =~ "New Video"
+      assert html_response(conn, 200) =~ "type=\"submit\">Add video</button>"
     end
   end
 
   describe "create video" do
     test "redirects to show when data is valid", %{conn: conn} do
-      conn = post(conn, Routes.video_path(conn, :create), video: @create_attrs)
+      user = user_fixture()
+
+      conn =
+        conn
+        |> assign(:user, user)
+        |> post(Routes.video_path(conn, :create), video: @create_attrs)
 
       assert %{id: id} = redirected_params(conn)
       assert redirected_to(conn) == Routes.video_path(conn, :show, id)
 
-      conn = get(conn, Routes.video_path(conn, :show, id))
-      assert html_response(conn, 200) =~ "Show Video"
+      assert html_response(conn, 302) =~
+               "<html><body>You are being <a href=\"/videos/#{id}\">redirected</a>.</body></html>"
     end
 
     test "renders errors when data is invalid", %{conn: conn} do
-      conn = post(conn, Routes.video_path(conn, :create), video: @invalid_attrs)
-      assert html_response(conn, 200) =~ "New Video"
+      user = user_fixture()
+
+      conn =
+        conn
+        |> assign(:user, user)
+        |> post(Routes.video_path(conn, :create), video: @invalid_attrs)
+
+      assert html_response(conn, 200) =~ "type=\"submit\">Add video</button>"
     end
   end
 
