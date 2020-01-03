@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="726cc33b-0e73-447d-b5cd-447f98a68cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/catcasts/multimedia/youtube_data.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/catcasts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/catcasts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/catcasts_web/controllers/session_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/catcasts_web/controllers/session_controller.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/catcasts_web/controllers/video_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/catcasts_web/controllers/video_controller.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/catcasts_web/templates/layout/_navigation.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/catcasts_web/templates/layout/_navigation.html.eex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/catcasts_web/templates/video/form.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/catcasts_web/templates/video/form.html.eex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/catcasts_web/templates/video/new.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/catcasts_web/templates/video/new.html.eex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mix.exs" beforeDir="false" afterPath="$PROJECT_DIR$/mix.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mix.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mix.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/catcasts_web/controllers/video_controller_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/test/catcasts_web/controllers/video_controller_test.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/catcasts_web/templates/layout/navigation_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/test/catcasts_web/templates/layout/navigation_test.exs" afterDir="false" />
-    </list>
+    <list default="true" id="726cc33b-0e73-447d-b5cd-447f98a68cc5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/_build/dev/lib/connection/" />
     <ignored path="$PROJECT_DIR$/_build/dev/lib/cowboy/" />
     <ignored path="$PROJECT_DIR$/_build/dev/lib/cowlib/" />
@@ -85,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/catcasts_web/controllers/video_controller_test.exs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="388">
+              <caret line="36" column="64" lean-forward="true" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -318,7 +304,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572126730751</updated>
       <workItem from="1572126732645" duration="7218000" />
-      <workItem from="1576429019717" duration="14047000" />
+      <workItem from="1576429019717" duration="14536000" />
     </task>
     <task id="LOCAL-00001" summary="part 5">
       <created>1576452285078</created>
@@ -334,14 +320,22 @@
       <option name="project" value="LOCAL" />
       <updated>1577159837250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add youtube metadata">
+      <created>1577634283633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577634283633</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21265000" />
+    <option name="totallyTimeSpent" value="21754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4908425" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -356,7 +350,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32841328" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44526446" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.44526446" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -371,7 +365,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="part 5" />
     <MESSAGE value="fix all the tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix all the tests" />
+    <MESSAGE value="add youtube metadata" />
+    <option name="LAST_COMMIT_MESSAGE" value="add youtube metadata" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/dev.exs">
@@ -607,8 +602,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/catcasts_web/controllers/video_controller_test.exs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="388">
+          <caret line="36" column="64" lean-forward="true" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
         </state>
       </provider>
     </entry>
